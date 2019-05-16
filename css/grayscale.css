@@ -4,6 +4,18 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+.img-overlay {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -166,10 +178,17 @@
   background-color: #467370 !important;
 }
 
+.about-section2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../img/phone-800x500-120dpi.jpg");
+}
+
 .about-section {
   padding-top: 10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background-image: url("../img/phone-800x500-120dpi.jpg");
 }
 
 .about-section p {
