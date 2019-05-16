@@ -178,13 +178,15 @@
   background-color: #467370 !important;
 }
 
-.about-section2 {
+.about-section {
   padding-top: 60px;
   padding-bottom: 60px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/phone-800x500-120dpi.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/phone-800x500-120dpi.jpg");
   background-image: url("../img/phone-800x500-120dpi.jpg");
 }
 
-.about-section {
+.about-section-old {
   padding-top: 10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
