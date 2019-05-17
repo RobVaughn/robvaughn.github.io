@@ -10,7 +10,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-  <link href="css/grayscale.min.css" rel="stylesheet">
+  <link href="css/grayscale.css" rel="stylesheet">
 </head>
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -40,24 +40,21 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Rob Vaughn Portfolio</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">Recent projects, professional &amp; hobby.</h2>
-        <!-- >a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a -->
+        <h2 class="text-white mx-auto mt-2 mb-5">Recent projects, professional &amp; hobby.</h2>
       </div>
     </div>
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about-section text-center">
-    <div class="img-overlay" style="opacity: 0.6; background-color: rgb(35, 35, 35);">
-      <!-- div><img src="img/phone-800x500-120dpi.jpg" class="img-fluid" alt="Books &amp; Mobile"></div -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-black mb-4">Rob Vaughn</h2>
-          <p class="text-black-50">Over 20 years of software &amp; web development, design, optimization &amp; security; product and project management; quality assurance and testing; hardware and server deployment, maintenance and support; security audits and pen-testing across a wide range of platforms. Adept at translating business stakeholder needs into cost-effective, secure, user-friendly solutions for quality and scalability. Dedicated to applying best practices and delivering defect-free, intuitive and robust software. Founding employee of several startups and instrumental in securing seed funding and sale of thereof.<br>A generalist interested in the best tools &amp; and methodologies to provide the best solutions. If I don't know it already, I master it quickly.</p>
-        </div>
+  <section class="about about-section text-center">
+    <div style="opacity: 0.9; background-color: rgb(35, 35, 35);">
+      <div class="container">
+	<div class="row">
+          <div class="col-lg-8 mx-auto">
+            <p class="text-white"><br><br>Over 20 years of software &amp; web development, design, optimization &amp; security; product and project management; quality assurance and testing; hardware and server deployment, maintenance and support; security audits and pen-testing across a wide range of platforms.<br><br>Adept at translating business stakeholder needs into cost-effective, secure, user-friendly solutions for quality and scalability. Dedicated to applying best practices and delivering defect-free, intuitive and robust software. Founding employee of several startups and instrumental in securing seed funding and sale of thereof.<br><br>A generalist interested in the best tools &amp; and methodologies to provide the best solutions. If I don't know it already, I master it quickly.</p>
+          </div>
+	</div>
       </div>
-    </div>
   </section>
 
   <!-- Projects Section -->
@@ -67,14 +64,15 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-	  <iframe src="https://austere.xyz" width="80%" height="500" frameborder="0" allowfullscreen sandbox><p><a href="https://austere.xyz">Austere Home</a></p>
+	  <iframe src="https://austere.xyz" width="95%" height="500" frameborder="0" allowfullscreen sandbox><p><a href="https://austere.xyz">Austere Home</a></p>
 	  </iframe>
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>Web Design &amp; Development</h4>
-            <p class="text-black-50 mb-0">A new, mobile-forward website for a band I used to do audio engineering and production for as well as releasing their CDs on my boutique record label: 
-              <a href="https://austere.xyz">Austere Home</a>. Responsible for all design, images, coding, hosting, social media, SEO optimization, JSON-LD Rich Snippet data, Facebook Open Graph specs, etc.</p>
+	    <a href="https://austere.xyz">
+              <p class="text-black mb-0">A new, mobile-forward website (https://austere.xyz) for a band I used to do audio engineering and production for as well as releasing their CDs on my boutique record label. Responsible for all design, images, coding, hosting, social media, SEO optimization, JSON-LD Rich Snippet data, Facebook Open Graph specs, etc.</p>
+	    </a>
           </div>
         </div>
       </div>
@@ -89,13 +87,13 @@
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
+	      <div class="project-text w-100 my-auto text-center text-lg-left">
 		<a href="https://github.com/RobVaughn/hotspot_login">
                   <h4 class="text-white">hotspot_login.py</h4>
 		</a>
                 <p class="mb-0 text-white-50">A general wifi network command line utility that grew out of a simple script for a friend into a comprehensive tool for Windows, Linux and RaspPi. Included unit tests. </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
+	      </div>
             </div>
           </div>
         </div>
@@ -109,32 +107,64 @@
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
+	      <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Reddit Haiku Robot</h4>
-                <p class="mb-0 text-white-50">An entertaining Reddit robot that posts haiku about the sub infrequently as replies. Written in OO Python3 using the Reddit API, haikus stored as flat files, in MySQL or CouchDB.</p>
+                <p class="mb-0 text-white-50">An entertaining Reddit robot that posts haiku about the sub infrequently as replies. Written in OO Python3 using the Reddit API, haikus stored as flat files, or with MySQL or CouchDB.</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
+	      </div>
             </div>
           </div>
         </div>
       </div>
 
+      <!-- argparse Cookbook -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+	  <a href="https://gist.github.com/RobVaughn/1f39deb0fe20db3eaa93ade4074a1258">
+            <img class="img-fluid" src="img/cookbook-600x600-120dpi.jpg" alt="argparse Cookbook">
+	  </a>
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+	      <div class="project-text w-100 my-auto text-center text-lg-left">
+		<a href="https://gist.github.com/RobVaughn/1f39deb0fe20db3eaa93ade4074a1258">
+                  <h4 class="text-white">argparse Cookbook</h4>
+		</a>
+                <p class="mb-0 text-white-50">My own Python argparse cookbook examples plus links to others and similar tools.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+	      </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Contact Section -->
   <section class="contact-section bg-black">
     <div class="container">
-      <div class="row">
+      <div class="row" align="center">
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-envelope text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Email</h4>
               <hr class="my-4">
-              <div class="small text-black-50">
+              <div class="small text-black">
                 <a href="mailto:RobVaughn@gmail.com">RobVaughn@gmail.com</a>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Location</h4>
+              <hr class="my-4">
+              <div class="small text-black">Portland, Oregon<br>(not interested in relocating at this time)</div>
             </div>
           </div>
         </div>
@@ -145,29 +175,26 @@
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Phone</h4>
               <hr class="my-4">
-              <div class="small text-black-50">+1 (503) 486-8930</div>
+              <div class="small text-black">+1 (503) 486-8930</div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="social d-flex justify-content-center">
-        <a href="https://linkedin/RobVaughn" class="mx-2">
+        <a href="https://linkedin.com/in/RobVaughn" class="mx-2">
           <i class="fab fa-linkedin"></i>
         </a>
         <a href="https://github.com/RobVaughn" class="mx-2">
           <i class="fab fa-github"></i>
         </a>
       </div>
-
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-black small text-center text-white-50">
-    <div class="container">
-      Copyright &copy; Rob Vaughn 2019
-    </div>
+  <footer class="bg-black small text-center text-white">
+    <div class="container">Copyright &copy; Rob Vaughn 2019. Design based on the <a href="https://www.bootstrapzero.com/bootstrap-template/grayscale">grayscale</a> theme. Photos by Elke and Dariusz Sankowski.</div>
   </footer>
 
   <!-- Bootstrap core JavaScript -->
