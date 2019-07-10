@@ -6,3 +6,7 @@
    font-family: 'Mystic Prophet';
    src: url('Mystic Prophet/font.TTF');
 }
+@font-face {
+   font-family: 'Cinzel Decorative Black';
+   src: url('Cinzel Decorative Black/font.TTF');
+}
