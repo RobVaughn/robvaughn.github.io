@@ -1512,17 +1512,17 @@ body {
   padding-bottom: 90px;
   background-image: url("../../../assets/images/mid-century-modern-1300x1300.jpg");
 }
-.cid-ruTzqGmZXs h1 img .web {
+.cid-ruTzqGmZXs img.web {
   display: block;
 }
-.cid-ruTzqGmZXs h1 img .mobile {
+.cid-ruTzqGmZXs img.mobile {
   display: none;
 }
 @media only screen and (max-width: 800px) {
-  .cid-ruTzqGmZXs h1 img .web {
+  .cid-ruTzqGmZXs img.web {
     display: none;
   }
-  .cid-ruTzqGmZXs h1 img .mobile {
+  .cid-ruTzqGmZXs img.mobile {
     display: block;
   }
 }
