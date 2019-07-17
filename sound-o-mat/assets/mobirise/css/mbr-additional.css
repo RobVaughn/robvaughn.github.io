@@ -1505,13 +1505,26 @@ body {
   background: #ff3366 !important;
   box-shadow: none !important;
 }
+
+/* Main page. */
 .cid-ruTzqGmZXs {
   padding-top: 135px;
   padding-bottom: 90px;
   background-image: url("../../../assets/images/mid-century-modern-1300x1300.jpg");
 }
-.cid-ruTzqGmZXs H1 {
-  color: #c1c1c1;
+.cid-ruTzqGmZXs h1 img .web {
+  display: block;
+}
+.cid-ruTzqGmZXs h1 img .mobile {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-ruTzqGmZXs h1 img .web {
+    display: none;
+  }
+  .cid-ruTzqGmZXs h1 img .mobile {
+    display: block;
+  }
 }
 .cid-ruTzqGmZXs .mbr-text,
 .cid-ruTzqGmZXs .mbr-section-btn {
