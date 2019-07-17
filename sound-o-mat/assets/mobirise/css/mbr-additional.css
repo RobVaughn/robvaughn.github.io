@@ -1512,6 +1512,9 @@ body {
   padding-bottom: 90px;
   background-image: url("../../../assets/images/mid-century-modern-1300x1300.jpg");
 }
+.cid-ruTzqGmZXs h2 img {
+  margin: 0 auto;
+}
 .cid-ruTzqGmZXs img.web {
   display: block;
 }
@@ -1538,6 +1541,9 @@ body {
 .cid-rvjn147C6I h1 {
   color: #000000;
 }
+.cid-rvjn147C6I img {
+  margin: 0 auto;
+}
 .cid-rvjn147C6I img.web {
   display: block;
 }
@@ -1562,8 +1568,25 @@ body {
   background-image: url("../../../assets/images/temporama-800x800.jpg");
   display: none;
 }
-.cid-rvpUU4HwEL H1 {
+.cid-rvpUU4HwEL h1 {
   color: #000000;
+}
+.cid-rvpUU4HwEL img {
+  margin: 0 auto;
+}
+.cid-rvpUU4HwEL img.web {
+  display: block;
+}
+.cid-rvpUU4HwEL img.mobile {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-rvpUU4HwEL img.web {
+    display: none;
+  }
+  .cid-rvpUU4HwEL img.mobile {
+    display: block;
+  }
 }
 .cid-rvpUU4HwEL .mbr-text,
 .cid-rvpUU4HwEL .mbr-section-btn {
@@ -2846,18 +2869,20 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #ffffff;
-  background-image: url("../../../assets/images/wallpaper03.jpg");
+  background-image: url("../../../assets/images/apollo11-lem.jpg");
 }
 .cid-rwk4uOwNjD .counter-container {
-  color: #ffffff;
+  color: #000000;
 }
 .cid-rwk4uOwNjD .counter-container ul {
   margin-bottom: 0;
+  padding-left: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .cid-rwk4uOwNjD .counter-container ul li {
   margin-bottom: 0.1rem;
-  margin-left: 0.4rem;
 }
 .cid-rwk4uOwNjD .counter-container ul li a {
-  color: #ffffff;
+  color: #000000;
 }
