@@ -1530,11 +1530,27 @@ body {
 .cid-ruTzqGmZXs .mbr-section-btn {
   color: #c1c1c1;
 }
+
+/* Biography */
 .cid-rvjn147C6I {
   background-image: url("../../../assets/images/starburst-1000x1080.jpg");
 }
-.cid-rvjn147C6I H1 {
+.cid-rvjn147C6I h1 {
   color: #000000;
+}
+.cid-rvjn147C6I img.web {
+  display: block;
+}
+.cid-rvjn147C6I img.mobile {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-rvjn147C6I img.web {
+    display: none;
+  }
+  .cid-rvjn147C6I img.mobile {
+    display: block;
+  }
 }
 .cid-rvjn147C6I .mbr-text,
 .cid-rvjn147C6I .mbr-section-btn {
