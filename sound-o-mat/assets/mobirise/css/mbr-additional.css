@@ -2096,8 +2096,16 @@ body {
 .cid-ruTzJNqgNM {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../../img/wallpaper01.jpg");
+  background-image: url("../../../assets/images/music-bg-800x1000.jpg");
   background-repeat: repeat;
+  background-size: 800px 1000px;
+}
+@media (max-width: 800px) {
+  .cid-ruTzJNqgNM {
+    background-image: url("../../../assets/images/music-bg-400x500.jpg");
+    background-repeat: repeat;
+    background-size: 400px 500px;
+  }
 }
 .cid-ruTzJNqgNM .mbr-slider .carousel-control {
   background: #1b1b1b;
