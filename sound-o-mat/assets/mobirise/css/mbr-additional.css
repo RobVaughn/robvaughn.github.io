@@ -2107,6 +2107,23 @@ body {
     background-size: 400px 500px;
   }
 }
+.cid-ruTzJNqgNM img {
+  margin: 0 auto;
+}
+.cid-ruTzJNqgNM img.web {
+  display: block;
+}
+.cid-ruTzJNqgNM img.mobile {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-ruTzJNqgNM img.web {
+    display: none;
+  }
+  .cid-ruTzJNqgNM img.mobile {
+    display: block;
+  }
+}
 .cid-ruTzJNqgNM .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
@@ -2791,8 +2808,25 @@ body {
   background-image: url("../../../assets/images/ouijaboard-800x607.jpg");
   display: none;
 }
-.cid-rvq7kbxoRw h1 {
+.cid-rvq7kbxoRw h2 {
   color: #000000;
+}
+.cid-rvq7kbxoRw img {
+  margin: 0 auto;
+}
+.cid-rvq7kbxoRw img.web {
+  display: block;
+}
+.cid-rvq7kbxoRw img.mobile {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-rvq7kbxoRw img.web {
+    display: none;
+  }
+  .cid-rvq7kbxoRw img.mobile {
+    display: block;
+  }
 }
 .cid-rvq7kbxoRw a {
   color: #550011;
