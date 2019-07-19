@@ -2628,8 +2628,25 @@ body {
 .cid-rvgsNDoWuo {
   background-image: url("../../../assets/images/talking-board03-800x440.jpg");
 }
-.cid-rvgsNDoWuo H1 {
+.cid-rvgsNDoWuo h2 {
   color: #000000;
+}
+.cid-rvgsNDoWuo img {
+  margin: 0 auto;
+}
+.cid-rvgsNDoWuo img.web {
+  display: block;
+}
+.cid-rvgsNDoWuo img.mobile {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-rvgsNDoWuo img.web {
+    display: none;
+  }
+  .cid-rvgsNDoWuo img.mobile {
+    display: block;
+  }
 }
 .cid-rvgsNDoWuo .mbr-text,
 .cid-rvgsNDoWuo .mbr-section-btn {
