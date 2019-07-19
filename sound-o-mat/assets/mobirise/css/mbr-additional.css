@@ -1562,6 +1562,15 @@ body {
 .cid-rvjn147C6I .mbr-section-btn {
   color: #000000;
 }
+.cid-rvjn147C6I .mbr-text a:link {
+  color: #0808ff;
+}
+.cid-rvjn147C6I .mbr-text a:link:hover {
+  color: #08ffff;
+}
+.cid-rvjn147C6I .mbr-text a:link:visited {
+  color: #00006f;
+}
 
 /* Advice for Engineers */
 .cid-rvpUU4HwEL {
@@ -1592,6 +1601,16 @@ body {
 .cid-rvpUU4HwEL .mbr-section-btn {
   color: #000000;
 }
+.cid-rvpUU4HwEL .mbr-text a:link {
+  color: #0808ff;
+}
+.cid-rvpUU4HwEL .mbr-text a:link:hover {
+  color: #08ffff;
+}
+.cid-rvpUU4HwEL .mbr-text a:link:visited {
+  color: #00006f;
+}
+
 
 /* Menu */
 .cid-rvLVmSO4WG .navbar {
