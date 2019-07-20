@@ -61,6 +61,14 @@ body {
 .display-8 > .mbr-iconfont {
   font-size: 1.4rem;
 }
+.display-9 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+}
+.display-9 > .mbr-iconfont {
+  font-size: 1.2rem;
+}
+
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
 /* 100vw - current viewport width */
@@ -2826,6 +2834,12 @@ body {
 .cid-rvq7kbxoRw {
   background-image: url("../../../assets/images/ouijaboard-800x607.jpg");
   display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-rvq7kbxoRw {
+    background-image: url("../../../assets/images/ouijaboard-800x607.jpg");
+    display: none;
+  }
 }
 .cid-rvq7kbxoRw h2 {
   color: #000000;
