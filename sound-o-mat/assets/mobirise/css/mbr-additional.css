@@ -2939,6 +2939,26 @@ body {
   background-image: url("../../../assets/images/wallpaper02.jpg");
   display: none;
 }
+.cid-rwk05Bj6L5 h2 {
+  color: #ffffff;
+}
+.cid-rwk05Bj6L5 img {
+  margin: 0 auto;
+}
+.cid-rwk05Bj6L5 img.web {
+  display: block;
+}
+.cid-rwk05Bj6L5 img.mobile {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-rwk05Bj6L5 img.web {
+    display: none;
+  }
+  .cid-rwk05Bj6L5 img.mobile {
+    display: block;
+  }
+}
 
 /* Cleaning & Restoration */
 .cid-rwk5QaB0zt {
@@ -2947,8 +2967,25 @@ body {
   background-image: url("../../../assets/images/cleaning-bg-800x865.jpg");
   display: none;
 }
-.cid-rwk5QaB0zt h3 {
+.cid-rwk5QaB0zt h2 {
   color: #000000;
+}
+.cid-rwk5QaB0zt img {
+  margin: 0 auto;
+}
+.cid-rwk5QaB0zt img.web {
+  display: block;
+}
+.cid-rwk5QaB0zt img.mobile {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-rwk5QaB0zt img.web {
+    display: none;
+  }
+  .cid-rwk5QaB0zt img.mobile {
+    display: block;
+  }
 }
 .cid-rwk5QaB0zt .mbr-text {
   color: #000000;
