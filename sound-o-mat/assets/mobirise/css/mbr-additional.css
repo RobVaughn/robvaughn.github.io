@@ -2873,6 +2873,11 @@ body {
 .cid-rwinuXQfxZ {
   background-image: url("../../../assets/images/services-bg-800x800.jpg");
 }
+@media only screen and (max-width: 800px) {
+  .cid-rwinuXQfxZ {
+    background-image: url("../../../assets/images/services-bg-400x400.jpg");
+  }
+}
 .cid-rwinuXQfxZ .icons-media-container {
   display: flex;
   -webkit-justify-content: center;
@@ -2899,8 +2904,25 @@ body {
 .cid-rwinuXQfxZ .card {
   padding-bottom: 1.5rem;
 }
-.cid-rwinuXQfxZ H1 {
+.cid-rwinuXQfxZ h2 {
   color: #000000;
+}
+.cid-rwinuXQfxZ img {
+  margin: 0 auto;
+}
+.cid-rwinuXQfxZ img.web {
+  display: block;
+}
+.cid-rwinuXQfxZ img.mobile {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-rwinuXQfxZ img.web {
+    display: none;
+  }
+  .cid-rwinuXQfxZ img.mobile {
+    display: block;
+  }
 }
 .cid-rwinuXQfxZ .mbr-text,
 .cid-rwinuXQfxZ .mbr-section-btn {
@@ -2961,7 +2983,7 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #ffffff;
-  background-image: url("../../../assets/images/apollo11-lem.jpg");
+  background-image: url("../../../assets/images/apollo11-lem-800x500.jpg");
 }
 .cid-rwk4uOwNjD .counter-container {
   color: #000000;
