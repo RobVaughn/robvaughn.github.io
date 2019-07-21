@@ -37,7 +37,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Cinzel Decorative Black', sans-serif;
+  font-family: 'Cinzel Decorative Black';
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
@@ -91,9 +91,15 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
+    font-family: 'Cinzel Decorative Black';
     font-size: 1.2rem;
     font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
     line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-7 {
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 
@@ -2936,8 +2942,13 @@ body {
 .cid-rwk05Bj6L5 {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("../../../assets/images/wallpaper02.jpg");
+  background-image: url("../../../assets/images/foley-bg-800x700.jpg");
   display: none;
+}
+@media only screen and (max-width: 800px) {
+  .cid-rwk05Bj6L5 {
+    background-image: url("../../../assets/images/foley-bg-400x350.jpg");
+  }
 }
 .cid-rwk05Bj6L5 h2 {
   color: #ffffff;
