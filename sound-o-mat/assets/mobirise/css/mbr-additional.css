@@ -3064,12 +3064,12 @@ body {
 }
 @media only screen and (max-width: 800px) {
   .cid-rwk4uOwNjD .counter-container ul {
-    padding-left: 60px;
+    padding-left: 20px;
   }
 }
 .cid-rwk4uOwNjD .counter-container ul li {
   margin-bottom: 0.1rem;
-  margin-left: 0.2rem;
+  margin-left: 0.1rem;
 }
 .cid-rwk4uOwNjD .counter-container ul li a {
   color: #000000;
