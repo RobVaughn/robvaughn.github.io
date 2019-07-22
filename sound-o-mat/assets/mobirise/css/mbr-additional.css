@@ -1552,6 +1552,11 @@ body {
 .cid-rvjn147C6I {
   background-image: url("../../../assets/images/starburst-1000x1080.jpg");
 }
+@media only screen and (max-width: 800px) {
+  .cid-rvjn147C6I {
+    background-image: url("../../../assets/images/starburst-400x400.jpg");
+  }
+}
 .cid-rvjn147C6I h2 {
   color: #000000;
 }
@@ -2934,7 +2939,7 @@ body {
 .cid-rwinuXQfxZ .mbr-section-btn {
   color: #000000;
 }
-.cid-rwinuXQfxZ H5 {
+.cid-rwinuXQfxZ h5 {
   color: #000000;
 }
 
