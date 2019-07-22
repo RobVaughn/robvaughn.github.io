@@ -1,0 +1,22 @@
+                                Left            Right
+Peak Amplitude:                 -2.65 dB        -2.65 dB
+True Peak Amplitude:            -2.65 dBTP      -2.65 dBTP
+Maximum Sample Value:           21586.67        21585.85
+Minimum Sample Value:           -24149.60       -24147.41
+Possibly Clipped Samples:       0               0
+Total RMS Amplitude:            -22.80 dB       -22.80 dB
+Maximum RMS Amplitude:          -9.38 dB        -9.38 dB
+Minimum RMS Amplitude:          -36.00 dB       -36.00 dB
+Average RMS Amplitude:          -27.71 dB       -27.71 dB
+DC Offset:                      -0.03 %         -0.03 %
+Measured Bit Depth:             32              32
+Dynamic Range:                  26.62 dB        26.62 dB
+Dynamic Range Used:             25.40 dB        25.40 dB
+Loudness (Legacy):              -11.71 dB       -11.71 dB
+Perceived Loudness (Legacy):    -12.15 dB       -12.15 dB
+
+ITU-R BS.1770-3 Loudness: -19.40 LUFS
+
+0dB = FS Square Wave
+Using RMS Window of 50.00 ms
+Account for DC = true
