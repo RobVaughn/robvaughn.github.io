@@ -1604,7 +1604,8 @@ body {
 /* Advice for Engineers */
 .cid-rvpUU4HwEL {
   background-image: url("../../../assets/images/temporama-800x800.jpg");
-  background-size: 800px;
+  background-size: 1200px;
+  background-repeat: repeat-y;
   display: none;
 }
 .cid-rvpUU4HwEL h2 {
@@ -2855,17 +2856,10 @@ body {
 /* MFS Info */
 .cid-rvq7kbxoRw {
   background-image: url("../../../assets/images/ouijaboard-800x607.jpg");
-  background-size: 800px;
+  background-size: 800px 600px;
+  background-repeat: repeat-y;
   display: none;
 }
-/* xyzzy
-@media only screen and (max-width: 800px) {
-  .cid-rvq7kbxoRw {
-    background-image: url("../../../assets/images/ouijaboard-400x300.jpg");
-    display: none;
-  }
-}
-*/
 .cid-rvq7kbxoRw h2 {
   color: #000000;
 }
