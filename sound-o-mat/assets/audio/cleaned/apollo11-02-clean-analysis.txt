@@ -1,3 +1,5 @@
+Process: converted MP3 -> lossless -> filter -> noise reduction -> filter -> normalize
+
                                 Left            Right
 Peak Amplitude:                 -0.84 dB        -0.84 dB
 True Peak Amplitude:            -0.84 dBTP      -0.84 dBTP
