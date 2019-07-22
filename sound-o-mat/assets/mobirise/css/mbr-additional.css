@@ -3052,18 +3052,13 @@ body {
 }
 .cid-rwk4uOwNjD .counter-container ul {
   margin-bottom: 0;
-  padding-left: 150px;
+  padding-left: 135px;
   padding-top: 100px;
   padding-bottom: 100px;
-}
-.cid-rwk4uOwNjD .counter-container ul li {
+}.
+cid-rwk4uOwNjD .counter-container ul li {
   margin-bottom: 0.1rem;
   margin-left: 0.4rem;
-}
-@media screen-only and (max-width: 800px) {
-  .cid-rwk4uOwNjD .counter-container ul li {
-    margin-left: 0;
-  }
 }
 .cid-rwk4uOwNjD .counter-container ul li a {
   color: #000000;
