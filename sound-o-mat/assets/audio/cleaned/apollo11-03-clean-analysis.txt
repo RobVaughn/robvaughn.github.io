@@ -1,0 +1,25 @@
+Process: MP3 -> lossless -> filter -> filter -> noise reduction -> normalize
+
+                          Left          Right
+Peak Amplitude:           -0.09 dB      -0.09 dB
+True Peak Amplitude:      -0.09 dBTP    -0.09 dBTP
+Maximum Sample Value:     31998.21      31997.62
+Minimum Sample Value:     -32442.67     -32442.46
+Possibly Clipped Samples: 0             0
+Total RMS Amplitude:      -21.34 dB     -21.34 dB
+Maximum RMS Amplitude:    -5.13 dB      -5.13 dB
+Minimum RMS Amplitude:    -61.16 dB     -61.15 dB
+Average RMS Amplitude:    -35.19 dB     -35.19 dB
+DC Offset:                0.00 %        0.00 %
+Measured Bit Depth:       32            32
+Dynamic Range:            56.03 dB      56.02 dB
+Dynamic Range Used:       52.20 dB      52.15 dB
+Loudness (Legacy):        -14.51 dB     -14.51 dB
+
+Perceived Loudness:       -8.63 dB      -8.63 dB
+
+ITU-R BS.1770-3 Loudness: -16.95 LUFS
+
+0dB = FS Square Wave
+Using RMS Window of 50.00 ms
+Account for DC = true
