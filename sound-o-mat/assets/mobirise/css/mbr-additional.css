@@ -3055,8 +3055,13 @@ body {
   padding-left: 135px;
   padding-top: 100px;
   padding-bottom: 100px;
-}.
-cid-rwk4uOwNjD .counter-container ul li {
+}
+@media screen-only and (max-width: 800px) {
+  .cid-rwk4uOwNjD .counter-container ul {
+    padding-left: 0px;
+  }
+}
+.cid-rwk4uOwNjD .counter-container ul li {
   margin-bottom: 0.1rem;
   margin-left: 0.4rem;
 }
