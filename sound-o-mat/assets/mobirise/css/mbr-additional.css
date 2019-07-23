@@ -3053,6 +3053,11 @@ body {
   background-color: #ffffff;
   background-image: url("../../../assets/images/apollo11-lem-800x500.jpg");
 }
+@media only screen and (max-width: 794px) {
+  .cid-rwk4uOwNjD {
+  background-image: url("../../../assets/images/apollo11-lem-600x750.jpg");
+  }
+}
 .cid-rwk4uOwNjD .counter-container {
   color: #000000;
 }
@@ -3062,7 +3067,7 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 794px) {
   .cid-rwk4uOwNjD .counter-container ul {
     padding-left: 45px;
     padding-top: 40px;
