@@ -276,7 +276,10 @@ a:focus, a:hover {
 .text-white {
   color: #ffffff !important;
 }
-
 footer {
   padding: 5rem 0;
+}
+img.small {
+  height: 120px;
+  width: 120px;
 }
