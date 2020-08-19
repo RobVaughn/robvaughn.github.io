@@ -9,7 +9,7 @@ function hideText(id) {
 }
 
 function addBreaks(id, n) {
-    alert("Width: " + $(document).width());
+    if (window.console) console.log("Doc width: " + $(document).width());
     if ($(document).width() > 400) {
 	for (i = 0; i < n; i++) {
 	    $(id).append( "<br>" );
