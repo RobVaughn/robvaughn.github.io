@@ -9,11 +9,13 @@ function hideText(id) {
 }
 
 function addBreaks(id, n) {
-    $(document).ready(function() { log('Doc width: ', $(document).width()); });
-    id.append( "<br>" );
+    $(document).ready(function() { log('Doc width: ' + $(document).width()); });
+    html = id.html();
+    for (i = 0; i < n; i++) {
+	html.append( "<br>" );
+    }
+    id.html(html);
     if ($(document).width() > 400) {
-	for (i = 0; i < n; i++) {
-	    id.append( "<br>" );
-	}
+	alert("whee!");
     }
 }
