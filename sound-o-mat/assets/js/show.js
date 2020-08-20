@@ -9,6 +9,7 @@ function hideText(id) {
 }
 
 function addBreaks(id, n) {
+    alert('Doc width: ' + $(document).width());
     $(document).ready(function() { log('Doc width: ' + $(document).width()); });
     var html = document.getElementById(id).html();
     for (i = 0; i < n; i++) {
