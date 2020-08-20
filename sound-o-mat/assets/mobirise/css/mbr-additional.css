@@ -3087,3 +3087,10 @@ body {
 .cid-rwk4uOwNjD .counter-container ul li a:visited {
   color: #444444;
 }
+
+/* Info Card Padding */
+@media only screen and (max-width: 580px) {
+    .card-padding {
+	display: none;
+    }
+}
