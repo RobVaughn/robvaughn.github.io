@@ -10,7 +10,7 @@ function hideText(id) {
 
 function addBreaks(id, n) {
     $(document).ready(function() { log('Doc width: ' + $(document).width()); });
-    html = id.html();
+    var html = document.getElementById(id).html();
     for (i = 0; i < n; i++) {
 	html.append( "<br>" );
     }
